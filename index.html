@@ -8,13 +8,39 @@
 <!-- header is fixed to the top of the page on scroll. -->
     <body>
         <header>
-            <h1>Contact Info</h1>
-            <h3 class="h3">Navigation</h3>
-            <section class="nav-links">
+            <h1>Welcome</h1>
+            <div class="nav-links">
                 <a href="#">Home</a>
                 <a href="#">Project Info</a>
-                <a href="#">Contact Info</a>
-            </section>
+                <a href="#contact">Contact Info</a>
+            </div>
         </header>
+
+        <main>
+            <section class="image-box">
+                <h2>Fire Code</h2>
+                <img src="./IMGP1534mini.jpg" alt="Jeremiah Firefighter with Hat">
+                <h3>Fighting Coding Fires</h3>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+
+                <form action="/action_page.php">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname" value="John"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Doe"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" value="email@example.com"><br><br>
+                    <input type="submit" value="Submit">
+                  </form> 
+            </section>
+        </main>
+
+        <footer class="footer">
+            <h5>Thank you for visiting</h5>
+            <h6>© Copyright That One Guy Productions, LLC 2022</h6>
+        </footer>
     </body>
 </html>
